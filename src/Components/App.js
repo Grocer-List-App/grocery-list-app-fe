@@ -1,14 +1,15 @@
-import '../App.css';
+import { BrowserRouter as Router, Route, Switch, NavLink } from 'react-router-dom';
 import NavBar from './Common/NavBar.js'
+
+import '../App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <Router>
+      <div id="body-wrapper">
         <NavBar />
-      </header>
-      <h1>Grocery List App</h1>
-    </div>
+      </div>
+    </Router>
   );
 }
 
