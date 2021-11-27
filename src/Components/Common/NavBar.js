@@ -32,7 +32,7 @@ padding: 0.7rem 1.8rem;
     justify-content: space-evenly;
     align-items: center;
     width: 20rem ;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 .logo {
     width: 2.5rem;
@@ -41,7 +41,7 @@ padding: 0.7rem 1.8rem;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #5195CE;
-    font-weight: 700;
+    font-weight: 600;
 }
 #log-in {
     border: 2px solid #5195CE;
@@ -52,5 +52,6 @@ padding: 0.7rem 1.8rem;
 }
 #log-in:hover {
     background-color: #5195CE;
+    color: #fff;
 }
 `
