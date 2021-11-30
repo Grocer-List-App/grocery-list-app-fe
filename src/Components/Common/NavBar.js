@@ -40,18 +40,18 @@ padding: 0.7rem 1.8rem;
 #log-in, #sign-up {
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #5195CE;
+    color: #005DB3;
     font-weight: 600;
 }
 #log-in {
-    border: 2px solid #5195CE;
+    border: 2px solid #005DB3;
     border-radius: 4px;
     padding: 0.5rem 1rem;
     color: black;
     transition: all 0.15s ease-in-out;
 }
 #log-in:hover {
-    background-color: #5195CE;
+    background-color: #005DB3;
     color: #fff;
 }
 `
