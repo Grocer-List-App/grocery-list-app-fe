@@ -1,5 +1,6 @@
-import { BrowserRouter as Router, Route, Switch, NavLink } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, NavLink } from 'react-router-dom';
 import NavBar from './Common/NavBar.js'
+import UserDashboard from './Pages/UserDashboard.js';
 
 import '../App.css';
 
@@ -8,6 +9,7 @@ function App() {
     <Router>
       <div id="body-wrapper">
         <NavBar />
+        <UserDashboard />
       </div>
     </Router>
   );
