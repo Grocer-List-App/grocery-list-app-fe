@@ -25,14 +25,16 @@ const Header = styled.header`
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 0.7rem 1.8rem;
+padding: 0.6rem 1.8rem;
+border-bottom: 2px solid #E6E6E6;
+
 
 .nav-links {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     width: 20rem ;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 .logo {
     width: 2.5rem;
@@ -40,18 +42,18 @@ padding: 0.7rem 1.8rem;
 #log-in, #sign-up {
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #005DB3;
+    color: #3e8c2f;
     font-weight: 600;
 }
 #log-in {
-    border: 2px solid #005DB3;
+    border: 2px solid #3e8c2f;
     border-radius: 4px;
     padding: 0.5rem 1rem;
     color: black;
     transition: all 0.15s ease-in-out;
 }
 #log-in:hover {
-    background-color: #005DB3;
+    background-color: #3e8c2f;
     color: #fff;
 }
 `
