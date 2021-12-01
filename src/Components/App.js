@@ -1,17 +1,21 @@
-import { BrowserRouter as Router, Route, Routes, NavLink } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import NavBar from './Common/NavBar.js'
-import UserDashboard from './Pages/UserDashboard.js';
+import HomePage from './Pages/HomePage.js';
+import Login from './Pages/Login.js';
+import Signup from './Pages/Signup.js';
 
 import '../App.css';
 
 function App() {
   return (
-    <Router>
       <div id="body-wrapper">
         <NavBar />
-        <UserDashboard />
+        <Routes>
+            <Route exact path="/" element={<HomePage/>} />
+            <Route path="/login" element={<Login/>} />
+            <Route path="/signup" element={<Signup/>} />
+        </Routes>
       </div>
-    </Router>
   );
 }
 
