@@ -14,7 +14,12 @@ export default function Signup() {
                             className="password-input text" 
                             type="password"
                             placeholder="Password"/>
+                        <input
+                            className="password-input text" 
+                            type="password"
+                            placeholder="Verify Password"/>
                     </div>
+                    
                     <div className="login-button-container">
                         <label className="remember-me">  
                             <input
@@ -22,7 +27,7 @@ export default function Signup() {
                                 type="radio"/>
                                 Remember me
                         </label>  
-                        <button type="submit">Login</button>
+                        <button type="submit">Signup</button>
                     </div>
                 </form>
         </LoginStyled>
