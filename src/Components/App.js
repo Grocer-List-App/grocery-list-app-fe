@@ -12,9 +12,10 @@ function App() {
       <div id="body-wrapper">
         <NavBar />
         <Routes>
-            <Route exact path="/" element={<UserDashboard/>} />
+            <Route exact path="/" element={<HomePage/>} />
             <Route path="/login" element={<Login/>} />
             <Route path="/signup" element={<Signup/>} />
+            <Route path="/dashboard" element={<UserDashboard/>} />
         </Routes>
       </div>
   );
