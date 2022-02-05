@@ -3,7 +3,11 @@
     border-collapse: collapse;
 }
 
-.user_wrapper {
+p {
+    text-transform: uppercase;
+}
+
+.section_wrapper {
     height: 50%;
 }
 
@@ -38,3 +42,28 @@
     width: 80%;
 }
 
+/* THIS SECTION IS FOR THE NAV LINKS */
+
+.dashboard_links_wrapper {
+    height: 100%;
+    display: flex;
+}
+
+.dashboard_link {
+    width: 25%;
+    margin: 3% 5%;
+    height: 35%;
+    border: 1px solid lightgrey;
+    text-align: center;
+    cursor: pointer;
+}
+
+.dashboard_image_container {
+    height: 80%;
+    vertical-align: middle;
+}
+
+.dashboard_link p {
+    height: 20%;
+    vertical-align: bottom;
+}
