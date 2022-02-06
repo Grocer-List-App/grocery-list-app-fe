@@ -25,7 +25,8 @@ const Header = styled.header`
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 0.6rem 1.8rem;
+/* padding: 0.6rem 1.8rem; */
+height: 6%;
 border-bottom: 2px solid #E6E6E6;
 
 
@@ -33,27 +34,29 @@ border-bottom: 2px solid #E6E6E6;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 20rem ;
-    font-size: 0.9rem;
+    width: 12rem ;
+    font-size: 0.8rem;
 }
 .logo {
-    width: 2.5rem;
+    width: 2rem;
+    margin-left: 0.5rem;
 }
 #log-in, #sign-up {
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #3e8c2f;
+    color: black;
     font-weight: 600;
 }
 #log-in {
-    border: 2px solid #3e8c2f;
+    border: 2px solid black;
     border-radius: 4px;
-    padding: 0.5rem 1rem;
+    padding: 0.25rem 0.5rem;
     color: black;
     transition: all 0.15s ease-in-out;
 }
 #log-in:hover {
     background-color: #3e8c2f;
+    border: 2px solid #3e8c2f;
     color: #fff;
 }
 `
