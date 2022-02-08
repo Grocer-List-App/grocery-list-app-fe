@@ -47,6 +47,7 @@
     background: linear-gradient(to right, #E0007B 0%, #570150 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-weight: 600;
 }
 
 /* THIS SECTION IS FOR THE NAV LINKS */

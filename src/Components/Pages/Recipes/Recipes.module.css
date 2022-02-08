@@ -1,0 +1,51 @@
+.recipes_wrapper {
+    height: 94%;
+    margin: 4% 0%;
+}
+
+.user_banner {
+    height: 10%;
+    font-size: 1.7em;
+    font-weight: 500;
+    background-color: #f5f5f5;
+    border: 1px solid lightgrey;
+    box-shadow: 0 0.5px 1px 0 rgba(0, 0, 0, 0.2), 0 1.5px 5px 0 rgba(0, 0, 0, 0.19);
+    display: grid;
+    place-items: center;
+}
+
+.filter_bar {
+    display: grid;
+    place-items: center;
+    margin: 10px;
+    position: relative;
+    left: 20px;
+}
+
+.recipes_container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.recipe_card {
+    text-transform: capitalize;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+
+.recipe_image {
+    height: 100%;
+}
+
+.recipe_text {
+    position: relative;
+    top: -22%;
+    font-weight: 500;
+}
