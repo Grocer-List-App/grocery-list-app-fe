@@ -1,9 +1,10 @@
 import React from 'react';
+import styles from './Recipes.module.css';
 
 export default function Recipes() {
   return (
-    <div>
-        <h1>Recipes</h1>
+    <div className={styles.recipes_container}>
+        <div className={styles.user_banner}>Bradly's Recipes</div>
     </div>
   );
 }

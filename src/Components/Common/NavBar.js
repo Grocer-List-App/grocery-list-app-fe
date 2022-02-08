@@ -27,7 +27,7 @@ justify-content: space-between;
 align-items: center;
 /* padding: 0.6rem 1.8rem; */
 height: 6%;
-border-bottom: 2px solid #E6E6E6;
+/* border-bottom: 2px solid #E6E6E6; */
 
 
 .nav-links {
