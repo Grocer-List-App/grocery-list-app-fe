@@ -1,4 +1,4 @@
-.recipes_container {
+.recipes_wrapper {
     height: 94%;
     margin: 4% 0%;
 }
@@ -16,8 +16,10 @@
 
 .filter_bar {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
-    margin: 10px;
     place-items: center;
+    margin: 10px;
+}
+
+.recipe_card {
+    text-transform: capitalize;
 }
