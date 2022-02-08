@@ -25,7 +25,7 @@ export default function Recipes() {
     <div className={styles.recipes_wrapper}>
       <div className={styles.user_banner}>Bradly's Recipes</div>
       <div className={styles.filter_bar}>
-        <SearchBar className={styles.search_bar}
+        <SearchBar id={styles.search_bar}
           placeholder='Search for recipes...'
           data={filteredData}
           handleSearch={handleSearch}
@@ -36,7 +36,10 @@ export default function Recipes() {
       <div className={styles.recipes_container}>
         {filteredData.map((item, index) => {
           return (
-            <div key={index} className={styles.recipe_card}>{item.name}</div>
+            <div key={index} className={styles.recipe_card}>
+              <div className={styles.recipe_image}></div>
+              <div className={styles.recipe_text}>{item.name}</div>
+            </div>
           )
         })}
       </div>
