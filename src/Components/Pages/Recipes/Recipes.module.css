@@ -10,6 +10,14 @@
     background-color: #f5f5f5;
     border: 1px solid lightgrey;
     box-shadow: 0 0.5px 1px 0 rgba(0, 0, 0, 0.2), 0 1.5px 5px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
-    padding: 21px;
+    display: grid;
+    place-items: center;
+}
+
+.filter_bar {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    margin: 10px;
+    place-items: center;
 }
