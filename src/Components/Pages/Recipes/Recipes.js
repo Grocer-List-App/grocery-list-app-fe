@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import styles from './Recipes.module.css';
 import SearchBar from '../../Common/SearchBar';
 import Data from '../../../Data.json';
+import AddIcon from '@mui/icons-material/Add';
 
 export default function Recipes() {
   const [ filteredData, setFilteredData ] = useState(Data);
@@ -34,6 +35,10 @@ export default function Recipes() {
         />
       </div>
       <div className={styles.recipes_container}>
+        {(state.enteredWord === '' || filteredData.length === 0) ?
+        <div className={styles.recipe_card}>
+          <AddIcon className={styles.add_icon} />
+        </div> : null}
         {filteredData.map((item, index) => {
           return (
             <div key={index} className={styles.recipe_card}>
