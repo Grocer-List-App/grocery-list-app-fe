@@ -1,10 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import NavBar from './Common/NavBar.js';
 import HomePage from './Pages/HomePage.js';
-import Login from './Pages/Login.js';
-import Signup from './Pages/Signup.js';
-import UserDashboard from './Pages/UserDashboard/UserDashboard.js';
-import Recipes from './Pages/Recipes/Recipes.js';
 
 import '../App.css';
 
@@ -14,10 +10,6 @@ function App() {
         <NavBar />
         <Routes>
             <Route exact path="/" element={<HomePage/>} />
-            <Route path="/login" element={<Login/>} />
-            <Route path="/signup" element={<Signup/>} />
-            <Route path="/dashboard" element={<UserDashboard/>} />
-            <Route path="/recipes" element={<Recipes/>} />
         </Routes>
       </div>
   );
